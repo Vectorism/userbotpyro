@@ -16,9 +16,9 @@ from dotenv import load_dotenv
 load_dotenv("config.env")
 
 
-ALIVE_EMOJI = getenv("ALIVE_EMOJI", "⚡️")
+ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🚀")
 ALIVE_LOGO = getenv("ALIVE_LOGO", "https://ibb.co/LdZphp0")
-ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hello !")
+ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "__Vectorism's Assistant__)
 API_HASH = getenv("API_HASH")
 API_ID = int(getenv("API_ID", ""))
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
