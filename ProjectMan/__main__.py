@@ -15,10 +15,10 @@ from ProjectMan import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bots
 from ProjectMan.helpers.misc import git, heroku
 
 MSG_ON = """
-🔥 **PyroMan-Userbot Berhasil Di Aktifkan**
+ ✅ ** UserBot Berhasil Di Aktifkan**
 ━━
 ➠ **Userbot Version -** `{}`
-➠ **Ketik** `{}alive` **untuk Mengecheck Bot**
+➠ **Ketik** `{}alive` **Untuk Check Status Bot**
 ━━
 """
 
@@ -38,10 +38,10 @@ async def main():
 
 
 if __name__ == "__main__":
-    LOGGER("ProjectMan").info("Starting PyroMan-UserBot")
+    LOGGER("ProjectMan").info("Starting UserBot")
     LOGGER("ProjectMan").info(f"Total Clients = {len(bots)} Users")
     install()
     git()
     heroku()
-    LOGGER("ProjectMan").info(f"PyroMan-UserBot v{BOT_VER} [🔥 BERHASIL DIAKTIFKAN! 🔥]")
+    LOGGER("ProjectMan").info(f"UserBot v{BOT_VER} [🔥 BERHASIL DIAKTIFKAN! 🔥]")
     LOOP.run_until_complete(main())
