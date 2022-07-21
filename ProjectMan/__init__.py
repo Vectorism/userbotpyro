@@ -1,5 +1,5 @@
-# Credits: @mrismanaziz
-# Copyright (C) 2022 Pyro-ManUserbot
+# This is an Automatically userbot for telegram user
+# 
 #
 # This file is a part of < https://github.com/mrismanaziz/PyroMan-Userbot/ >
 # PLease read the GNU Affero General Public License in
